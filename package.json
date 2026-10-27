@@ -34,6 +34,7 @@
     "release:version": "node tools/release-version.mjs",
     "release:tag": "node tools/release-tag.mjs",
     "release:notes": "node tools/release-notes.mjs",
+    "publish:volopay": "node tools/publish-volopay.mjs",
     "test:tools": "node --test \"tools/*.test.mjs\"",
     "pre-commit": "lint-staged",
     "pre-push": "pnpm format",
